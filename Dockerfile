@@ -13,7 +13,7 @@ RUN curl -o dataset.zip https://maven-datasets.s3.amazonaws.com/Coffee+Shop+Sale
     rm dataset.zip
 
 # Baixa o notebook para o diretório de trabalho
-RUN curl -o /home/jovyan/data_exploration.ipynb https://raw.githubusercontent.com/FabioAguiar/pyspark-virus-mosquito-analysis/main/notebooks/data_exploration.ipynb
+RUN curl -o /home/jovyan/data_exploration.ipynb https://raw.githubusercontent.com/FabioAguiar/Coffe-Shop-Sales-Analysis/refs/heads/main/Notebooks/Coffe_Sales_notebook.ipynb
 
 # Instala pacotes adicionais se necessário
 RUN pip install matplotlib seaborn
